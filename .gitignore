@@ -11,3 +11,10 @@
 /C02/C0202/bin/Debug
 /C02/C0202/obj
 /.vs/ThinkInLINQ
+*.dll
+*.exe
+*.pdb
+/C01/C0103/bin/Debug/net8.0
+/C01/C0103/obj
+/C02/C0203/bin/Debug/net8.0
+/C02/C0203/obj
