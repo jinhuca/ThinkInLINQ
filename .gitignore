@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/C01/C0101/bin/Debug
+/C01/C0101/obj
+/C01/C0102/bin/Debug/net8.0
+/C01/C0102/obj
+/C02/C0201/bin/Debug
+/C02/C0201/obj
+/C02/C0202/bin/Debug
+/C02/C0202/obj
