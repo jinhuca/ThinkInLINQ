@@ -1,8 +1,6 @@
-﻿using static System.Console;
+﻿namespace C0202;
 
-namespace C0202;
-
-internal class C0202Program
+file class C0202Program
 {
   static void Main()
   {

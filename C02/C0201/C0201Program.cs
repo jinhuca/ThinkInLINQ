@@ -1,6 +1,8 @@
-﻿namespace C0201;
+﻿using static System.Console;
 
-internal class C0201Program
+namespace C0201;
+
+file class C0201Program
 {
   static void Main(string[] args)
   {
@@ -9,12 +11,12 @@ internal class C0201Program
 
   private static void DotProductDemo()
   {
-    int[] v1 = { 1, 2, 3 };
-    int[] v2 = { 3, 2, 1 };
-    var zipped = v1.Zip(v2, (a, b) => a * b);
-    foreach (var z in zipped)
+    int[] v1_ = { 1, 2, 3 };
+    int[] v2_ = { 3, 2, 1 };
+    var zipped_ = v1_.Zip(v2_, (a, b) => a * b);
+    foreach (var z in zipped_)
     {
-      Console.WriteLine(z);
+      WriteLine(z);
     }
   }
 }
