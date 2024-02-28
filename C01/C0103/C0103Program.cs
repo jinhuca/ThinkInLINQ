@@ -8,8 +8,8 @@ internal class C0103Program
 
   static void Main(string[] args)
   {
-    //GeneratorOpsDemo();
-    StatisticalOpsDemo();
+    GeneratorOpsDemo();
+    //StatisticalOpsDemo();
   }
 
   static void GeneratorOpsDemo()
@@ -24,6 +24,14 @@ internal class C0103Program
     foreach(var item in g2_)
     {
       WriteLine(item);
+    }
+
+    var g3_ = Enumerable
+      .Range('A', 'Z' - 'A' + 1)
+      .Select(x => (char)x);
+    foreach (var x in g3_)
+    {
+      WriteLine(x);
     }
   }
 
