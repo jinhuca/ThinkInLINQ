@@ -2,7 +2,7 @@
 
 file class C0203Program
 {
-  static void Main(string[] args)
+  static void Main()
   {
     WeightedSum();
   }

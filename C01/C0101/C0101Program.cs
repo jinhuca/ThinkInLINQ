@@ -22,7 +22,7 @@ internal class C0101Program
   private static void HighOrderFunctionDemo()
   {
     Func<Func<int, int>, Func<int, int>, int, int> fog = (f1, g1, x) => f1(g1(x));
-    var result = fog(x => x + 21, x => x * 2, 12);
-    WriteLine(result);
+    var result_ = fog(x => x + 21, x => x * 2, 12);
+    WriteLine(result_);
   }
 }
