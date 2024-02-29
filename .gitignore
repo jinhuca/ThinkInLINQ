@@ -18,3 +18,12 @@
 /C01/C0103/obj
 /C02/C0203/bin/Debug/net8.0
 /C02/C0203/obj
+/C02/C0204/bin/Debug/net8.0
+/C02/C0204/obj
+/C02/C0205/bin/Debug/net8.0
+/C02/C0205/obj/Debug/net8.0
+*.json
+*.props
+*.cache
+*.targets
+*.bin
