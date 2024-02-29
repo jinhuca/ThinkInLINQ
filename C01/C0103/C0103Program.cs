@@ -2,7 +2,7 @@
 
 namespace C0103;
 
-internal class Program
+internal class C0103Program
 {
   private static IEnumerable<int> _ints = new[] { 1, 3, 4, 5, 6, 73, 4, 3, 90, 100 };
 

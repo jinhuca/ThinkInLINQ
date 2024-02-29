@@ -1,6 +1,6 @@
 ﻿namespace C0203;
 
-file class Program
+file class C0203Program
 {
   static void Main(string[] args)
   {
